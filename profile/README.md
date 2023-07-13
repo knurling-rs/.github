@@ -53,6 +53,7 @@ For more details, check out our [blog post introducing `flip-link`][changelog-1]
 
 [`flip-link`]: https://github.com/knurling-rs/flip-link
 [flipping the standard memory layout of ARM Cortex-M programs]: https://blog.japaric.io/stack-overflow-protection/
+[changelog-1]: https://ferrous-systems.com/blog/knurling-changelog-1/
 
 ### app-template
 
