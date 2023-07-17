@@ -12,7 +12,8 @@ It should be possible to use the same workflows and equally powerful tooling to 
 
 To that end we have created following tools:
 
-### probe-run
+<details>
+<summary><b>probe-run</b></summary>
 
 [`probe-run`] is a cargo runner to flash and run embedded applications just like you would native applications and provides you with stack backtraces that mimic native panicking behavior so you can see where things went wrong. It seamlessly integrates into your Cargo workflow and reduces the gap when moving from native Rust to embedded.
 
@@ -24,7 +25,9 @@ For more details, check out our [blog post introducing `probe-run`].
 [use Rust-analyzers `▶Run` button]: https://ferrous-systems.com/blog/run-rust-on-your-embedded-device-from-vscode/
 [blog post introducing `probe-run`]: https://ferrous-systems.com/blog/probe-run/
 
-### defmt
+</details>
+<details>
+<summary><b>defmt</b></summary>
 
 [`defmt`] is a highly efficient logging framework that targets resource-constrained devices, like microcontrollers. `defmt` stands for "deferred formatting".
 
@@ -41,7 +44,9 @@ For more details on how it works, check out the [`defmt` book].
 [compressing several booleans into one byte]: https://defmt.ferrous-systems.com/ser-bool.html
 [`defmt` book]: https://defmt.ferrous-systems.com/
 
-### flip-link
+</details>
+<details>
+<summary><b>flip-link</b></summary>
 
 [`flip-link`] adds zero-cost stack overflow protection for your embedded programs – no MPU or stack probe support needed!
 
@@ -55,7 +60,9 @@ For more details, check out our [blog post introducing `flip-link`][changelog-1]
 [flipping the standard memory layout of ARM Cortex-M programs]: https://blog.japaric.io/stack-overflow-protection/
 [changelog-1]: https://ferrous-systems.com/blog/knurling-changelog-1/
 
-### app-template
+</details>
+<details>
+<summary><b>app-template</b></summary>
 
 The [`app-template`] is a Cargo project template, so you can hit the ground running with `probe-run`, `defmt` and `flip-link`. Using the knurling `app-template`, and [`cargo-generate`], you can start your embedded project by just running
 
@@ -71,7 +78,9 @@ and specifying your desired HAL and compilation target.
 [`app-template`]: https://github.com/knurling-rs/app-template
 [`cargo-generate`]: https://github.com/ashleygwilliams/cargo-generate
 
-### defmt-test
+</details>
+<details>
+<summary><b>defmt-test</b></summary>
 
 [`defmt-test`] is an embedded test harness that lets you write and run *unit tests* as if you were using the built-in `#[test]` attribute, but they'll run on your embedded target.
 
@@ -80,6 +89,8 @@ Of course, `defmt-test` also gives you an `#[init]` attribute for initialization
 For more details, check out our [blog post introducing `defmt-test`][changelog-1]. Also check our [blog post series on testing embedded Rust code](https://ferrous-systems.com/blog/tags/embedded-rust-testing/).
 
 [`defmt-test`]: https://github.com/knurling-rs/defmt/tree/main/firmware/defmt-test
+
+</details>
 
 ## Learning materials
 
