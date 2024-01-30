@@ -13,20 +13,6 @@ It should be possible to use the same workflows and equally powerful tooling to 
 To that end we have created following tools:
 
 <details>
-<summary><b>probe-run</b></summary>
-
-[`probe-run`] is a cargo runner to flash and run embedded applications just like you would native applications and provides you with stack backtraces that mimic native panicking behavior so you can see where things went wrong. It seamlessly integrates into your Cargo workflow and reduces the gap when moving from native Rust to embedded.
-
-`probe-run` even lets you seamlessly [use Rust-analyzers `▶Run` button] in your embedded projects!
-
-For more details, check out our [blog post introducing `probe-run`].
-
-[`probe-run`]: https://github.com/knurling-rs/probe-run
-[use Rust-analyzers `▶Run` button]: https://ferrous-systems.com/blog/run-rust-on-your-embedded-device-from-vscode/
-[blog post introducing `probe-run`]: https://ferrous-systems.com/blog/probe-run/
-
-</details>
-<details>
 <summary><b>defmt</b></summary>
 
 [`defmt`] is a highly efficient logging framework that targets resource-constrained devices, like microcontrollers. `defmt` stands for "deferred formatting".
