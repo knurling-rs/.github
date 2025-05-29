@@ -78,13 +78,22 @@ For more details, check out our [blog post introducing `defmt-test`][changelog-1
 
 </details>
 
+<details>
+<summary><b>nrdfdu</b></summary>
+
+[`nrdfdu`] is CLI tool for loading firmware onto an nRF52840 microcontroller running Nordic Semi's USB DFU bootloader.
+
+[`nrdfdu`]: https://github.com/knurling-rs/nrfdfu-rs
+
+</details>
+
 ## Learning materials
 
 Sometimes we create learning resources to help newcomers to embedded Rust to get their hands dirty
 
 | name | website | repository |
 | :--  | :--     | :--        |
-| Knurling Session 2020 "Build a C02 measuring device" | https://session20q4.ferrous-systems.com/ | https://github.com/knurling-rs/knurling-session-20q4 |
+| Knurling Session 2020 "Build a CO2 measuring device" | https://session20q4.ferrous-systems.com/ | https://github.com/knurling-rs/knurling-session-20q4 |
 
 ## Blog
 
