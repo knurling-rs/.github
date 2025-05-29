@@ -87,6 +87,15 @@ For more details, check out our [blog post introducing `defmt-test`][changelog-1
 
 </details>
 
+<details>
+<summary><b>derive-mmio</b></summary>
+
+[`derive-mmio`] is macro for auto-generating MMIO access methods for a structure. You can see an example of how to use it in the [Ferrous Systems training material](https://github.com/ferrous-systems/rust-exercises/blob/1ce932395d3362de61de1774b189942e8ec1bcdf/qemu-code/uart-driver/src/uart_driver.rs#L108).
+
+[`derive-mmio`]: https://github.com/knurling-rs/derive-mmio
+
+</details>
+
 ## Learning materials
 
 Sometimes we create learning resources to help newcomers to embedded Rust to get their hands dirty
