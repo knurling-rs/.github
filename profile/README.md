@@ -81,7 +81,7 @@ For more details, check out our [blog post introducing `defmt-test`][changelog-1
 <details>
 <summary><b>nrdfdu</b></summary>
 
-[`nrdfdu`] is CLI tool for loading firmware onto an nRF52840 microcontroller running Nordic Semi's USB DFU bootloader.
+[`nrdfdu`] is a CLI tool for loading firmware onto an nRF52840 microcontroller running Nordic Semi's USB DFU bootloader.
 
 [`nrdfdu`]: https://github.com/knurling-rs/nrfdfu-rs
 
@@ -90,7 +90,7 @@ For more details, check out our [blog post introducing `defmt-test`][changelog-1
 <details>
 <summary><b>derive-mmio</b></summary>
 
-[`derive-mmio`] is macro for auto-generating MMIO access methods for a structure. You can see an example of how to use it in the [Ferrous Systems training material](https://github.com/ferrous-systems/rust-exercises/blob/1ce932395d3362de61de1774b189942e8ec1bcdf/qemu-code/uart-driver/src/uart_driver.rs#L108).
+[`derive-mmio`] is a macro for auto-generating MMIO access methods for a structure. You can see an example of how to use it in the [Ferrous Systems training material](https://github.com/ferrous-systems/rust-exercises/blob/1ce932395d3362de61de1774b189942e8ec1bcdf/qemu-code/uart-driver/src/uart_driver.rs#L108).
 
 [`derive-mmio`]: https://github.com/knurling-rs/derive-mmio
 
