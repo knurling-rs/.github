@@ -136,6 +136,8 @@ Unacceptable uses of AI include, but are not limited to:
 - Adding AI generated comments on issues/PRs with AI
   - This includes asking "The AI said XYZ, is that right?"
 - Contributing code with AI (beyond the small obvious snippets noted above)
+- Giving your AI a 'Co-Author' credit, e.g. in the git commit message
+  - None of the acceptable uses should warrant an authorship credit
 
 ---
 
