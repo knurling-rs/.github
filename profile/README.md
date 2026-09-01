@@ -128,7 +128,7 @@ Acceptable uses of AI are limited, but may include:
 - Submitting contributions that are inspired by, but not generated, an AI
   - For example, using an AI chat as a rubber duck or to ask for inspiration
 - Contributing artifacts containing small obvious snippets suggested by AI as part of a larger contribution
-  - The contributor must warrant the snippet is correct and that it either doesn't infringe on anyone's copyright or is non-copyrightable
+  - The (human) contributor must warrant the snippet is correct and that it either doesn't infringe on anyone's copyright or is non-copyrightable
 
 Unacceptable uses of AI include, but are not limited to:
 
